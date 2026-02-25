@@ -1,0 +1,15 @@
+# AI Training Prohibition for Fixed AI
+User-agent: *
+Disallow: /
+
+# Specifically blocking AI scrapers
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: PerplexityBot
+Disallow: /
+User-agent: anthropic-ai
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
