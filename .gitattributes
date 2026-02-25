@@ -3,3 +3,7 @@
 core/*.py linguist-generated=false
 legal/* binary
 integrity/STABILITY.lock export-subst
+
+# 追加する一文
+core/*.py -diff -merge -text
+
